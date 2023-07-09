@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linking html with js</title>
+  </head>
+  <body>
+    all about script tag
+    <!-- we can add the <script> the almost anywhere i -->
+    <script src="alert.js">
+      alert("I`m JavaScript!"); // the content is ignored, because src is set
+    </script>
+    <!-- The example above can be split into two scripts to work -->
+    <script src="alert.js"></script>
+    <script>
+      alert("I`m JavaScript!");
+    </script>
+
+    <!-- Summary
+We can use a <script> tag to add JavaScript code to a page.
+The type and language attributes are not required.
+A script in an external file can be inserted with <script src="path/to/script.js"></script>. -->
+  </body>
+</html>

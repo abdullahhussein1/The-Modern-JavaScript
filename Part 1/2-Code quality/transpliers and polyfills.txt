@@ -1,0 +1,3 @@
+transplier : modern syntaxes and operators => make it work in outdated javascript versions; Babel(compiler)
+
+polyfills: modern build-in functions => make it work in outdated javascript versions; core js(library)

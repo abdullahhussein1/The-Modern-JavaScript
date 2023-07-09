@@ -1,0 +1,16 @@
+https://javascript.info/javascript-specials
+
+--Without "use strict", everything still works, but some features behave in the old-fashioned, “compatible” way. We’d generally prefer the modern behavior.
+
+--[confirm,prompt,alert] are modals, they pause the code execution and prevent the visitor from interacting with the page until they answer.
+
+--Nullish coalescing operator:
+The ?? operator provides a way to choose a defined value from a list of variables. The result of a ?? b is a unless it’s null/undefined, then b.
+
+--Values null and undefined are special: they equal == each other and don’t equal anything else.
+
+--Greater/less comparisons compare strings character-by-character, other types are converted to a number.
+
+--The “switch” construct can replace multiple if checks. It uses === (strict equality) for comparisons.
+
+--function Parameters can have default values: function sum(a = 1, b = 2) {...}.
